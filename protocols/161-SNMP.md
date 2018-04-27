@@ -36,5 +36,10 @@ commuity strings - public / private / manager / ...
     • 1.3.6.1.4.1.77.1.2.25    User  Accounts   
     • 1.3.6.1.2.1.6.13.1.3	   TCP  Local  Ports   
 ```
+
+## Tools
+
+### snmpwalk
+### onesixtyone
 ### snmpenum
 ### snmpcheck
