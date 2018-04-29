@@ -41,3 +41,10 @@ rpcclient -U  "" ip  (give empty password)
 ### nbtstat
 ### nbtscan
 ### rpcclient
+
+## Exploits
+
+### ms08-067
+
+`windows/smb/ms08_067_netapi`
+`scanner/smb/pipe_auditor `

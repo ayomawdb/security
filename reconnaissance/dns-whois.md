@@ -9,6 +9,14 @@
 * `host www.example.com` - results in IP address
 * `host nonexistent.example.com` - results in not found error
 
+`nslookup example.com`
+
+```
+nslookup
+> set type=mx
+> example.com
+```
+
 # Reverse Lookup
 
 `for ip in $(seq 155 190);do host 50.7.67.$ip;done |grep -­‐v "not found"`
