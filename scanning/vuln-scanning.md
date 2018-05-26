@@ -10,3 +10,9 @@
 # http://osvdb.com/
 
 # Nikto
+
+# SQLMap
+
+```
+sqlmap -r example.req --level 5 --risk 3
+```

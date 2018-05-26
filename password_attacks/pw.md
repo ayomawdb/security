@@ -14,9 +14,11 @@ custom wordlist generator
 
 ## Hydra
 
-`hydra -l georgia -P passwordfile.txt 192.168.20.10 pop3`
+`hydra -l georgia -P passwordfile.txt example.com pop3`
 
-`hydra -L userlist.txt -P passwordfile.txt 192.168.20.10 pop3`
+`hydra -L userlist.txt -P passwordfile.txt example.com pop3`
+
+`hydra -L userlist.txt -P passwordlist.txt ssh://example.com`
 
 ## NT / NTLM Hash
 
@@ -53,3 +55,11 @@ Hash of empty value (7chars)
 ### John the Ripper
 
 john xphashes.txt
+/etc/john/john.conf
+   List.Rules:Wordlist
+--rule
+
+### Windows Credential Editor (WCE)
+
+* Pull from Local Security Authority Subsystem Service (LSASS)
+   * Process in charge of enforcing the system’s security policy

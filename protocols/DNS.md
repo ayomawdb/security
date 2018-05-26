@@ -1,3 +1,15 @@
+# DNS on TCP
+
+Only need for exposing DNS over TCP is to do zone-transfers.
+
+# DNS Zone Transfer
+
+`dig axfr IP_OF_DNS_SERVER example.com`
+
+# DNS query
+
+`dig @IP_OF_DNS_SERVER example.com`
+
 # DNS cache poisoning
 
 `dnsspoof -i eth0 -f hosts.txt`

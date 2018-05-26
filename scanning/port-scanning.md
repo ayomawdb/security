@@ -19,6 +19,10 @@
 
 # Nmap
 
+```
+nmap -sV -sC -oA <ip>
+```
+
 ## Port Related Information:
 `/usr/share/nmap/nmap-servies`
 
