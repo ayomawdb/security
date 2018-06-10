@@ -48,3 +48,9 @@ rpcclient -U  "" ip  (give empty password)
 
 `windows/smb/ms08_067_netapi`
 `scanner/smb/pipe_auditor `
+
+## SMB Mount
+
+```
+mount -t cifs -o user=Example //<IP>/<SHARE> /mnt/smb
+```

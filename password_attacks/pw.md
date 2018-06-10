@@ -63,3 +63,21 @@ john xphashes.txt
 
 * Pull from Local Security Authority Subsystem Service (LSASS)
    * Process in charge of enforcing the system’s security policy
+
+## Wordpress password
+
+`php> echo password_hash('example', PASSWORD_DEFAULT);`
+
+
+# Decrypt encrypted RSA keys
+
+sshng2john id_rsa
+john / jumbojohn
+
+# Decrypt cyphers
+
+https://www.quipqiup.com/
+
+# Create password hash for linux
+
+`openssl passwd -1 -salt password`

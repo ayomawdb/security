@@ -1,6 +1,9 @@
 # DNS on TCP
 
-Only need for exposing DNS over TCP is to do zone-transfers.
+Only need for exposing DNS over TCP when response is > 512 bytes
+* zone-transfers.
+* DNSSec
+* IPv6
 
 # DNS Zone Transfer
 
